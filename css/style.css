@@ -1,0 +1,56 @@
+#box{
+    width: 150px;
+    height: 150px;
+    overflow-y: scroll;/*hidden- скрыли переполнение текста, но его не видно, делаем скрол*/
+    /*(overflow-y:) scroll- два скрола, по горизонтали и вертикали. укуазываем ось, по ней скрол и отобразится*/
+   /* overflow-x: scroll */
+    border: 1px solid gray;
+}
+body{
+    background-color: rgb(203, 252, 105);
+}
+#first, #second, #third{
+    border-width: 20px;
+    border-style: solid;
+    border-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#second{
+    border-color: green orange black red;
+    border-radius: 50% 0 0 50%; /*скругление*/
+}
+#third{
+    width: 1px;
+    height: 1px;
+    border-color: transparent /*transparent- прозрачній*/ orange green red;
+}
+a[href]{
+    background-color: aquamarine;
+}
+a[target=_blank]{
+    background-color: greenyellow;
+}
+a:hover{
+    background-color: hotpink;
+}
+h1::after{
+    content: " - Hello world!!!";
+}
+h1::first-letter{
+    color: tomato;
+}
+nav ul{
+    list-style: none;
+    background-color: rgb(236, 248, 194);
+}
+ul li{
+    display: inline-block;
+    border: 1px dotted gray;
+    width: 100px;
+    height: 20px;
+    margin-right: 30px;
+    text-align: center;
+
+}

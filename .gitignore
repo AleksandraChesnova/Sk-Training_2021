@@ -1,4 +1,5 @@
 *.avi
-*.video
 *.mp4
+video
+log
 example.doc
