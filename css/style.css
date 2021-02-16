@@ -24,7 +24,7 @@ body{
 #third{
     width: 1px;
     height: 1px;
-    border-color: transparent /*transparent- прозрачній*/ orange green red;
+    border-color: transparent /*transparent- прозрачный*/ orange green red;
 }
 a[href]{
     background-color: aquamarine;
@@ -43,7 +43,8 @@ h1::first-letter{
 }
 nav ul{
     list-style: none;
-    background-color: rgb(236, 248, 194);
+    background-color: white;
+    height: 40px;
 }
 ul li{
     display: inline-block;
