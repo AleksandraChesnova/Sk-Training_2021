@@ -1,0 +1,24 @@
+:root {
+    --size-div: 600px;
+    }
+    
+div{
+    background-color: aquamarine;
+    width: var(--size-div);
+    overflow: visible;
+    /* hidden; */
+}
+p{
+    width: 110px;
+}
+div img{
+    width: var(--size-div);
+    height: 150px;
+    object-fit: cover; /* contain;*/
+}
+@media only screen and (max-width: 600px) {
+    div{
+        background-color: yellow;
+    }
+}
+
