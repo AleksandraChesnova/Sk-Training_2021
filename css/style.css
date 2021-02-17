@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+header{
+    background-color: rgb(212, 247, 212);
+    height: 70px;
+}
+footer{
+    
+    background-color: rgb(212, 247, 212); /*пропал фон, не пойму чего*/
+    height: 50px;
+    clear: both; /*с этим появился футер, почему не поняла*/
+}
+nav{
+    background-color: palegreen;
+   height: 40px;
+}
+
+#sidebar{
+    background-color: lightskyblue;
+    float: left;
+    width: 15%;
+    height: 700px;
+    text-align: center;
+}
+#content{
+    background-color: lightsteelblue;
+    float: left;
+    width: 70%;
+    height: 700px;
+    
+}
+aside{
+    background-color: lightskyblue;
+    width: 15%;
+    float: left;
+    height: 700px;
+    text-align: center;
+   }
