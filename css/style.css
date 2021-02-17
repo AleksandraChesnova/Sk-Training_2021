@@ -1,31 +1,25 @@
-/*Task1 №1*/
-div{
+/*Task1 */
+div, span, h1, li{
     font-family: 'Roboto', sans-serif;
-        font-size: 20px;
+    font-size: 20px;
     text-transform: capitalize;
 }
+/*в задании вообще не поняла ", и лапки другого цвета чем текст"?     ЛАПКИ - это что?*/
+
 span::after{
     content: " Ipsum dolor sit amet.";
     font-size: 30px;
-    font-family: 'Lato', sans-serif;
-    /*в задании вообще не поняла ", и лапки другого цвета чем текст"?
-     ЛАПКИ - это что?*/
-    
-}
-/* Task1 №2 С помощью css задайте стили для заголовка и списка (используя псевдоклассы)*/
+    }
+/* Task2  С помощью css задайте стили для заголовка и списка (используя псевдоклассы)*/
 h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 40px;
-} /* не смогла задать стили для заголовка (используя псевдоклассы), не поняла с помощью какого псевдокласса это можно сделать.
- Сделала просто для h1 стиль*/
+} /* не смогла задать стили для заголовка (используя псевдоклассы), не поняла с помощью какого псевдокласса это можно сделать. Сделала просто для h1 стиль*/
 li{
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
-ul {
+ul{
     list-style: square;
-
 }
 li:first-child{
     color: crimson;
