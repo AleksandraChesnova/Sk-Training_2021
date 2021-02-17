@@ -1,0 +1,18 @@
+/*Task3*/
+ul li{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 150px;
+    height: 30px;
+    margin: 0 5px 5px 0;
+    padding: 15px 0 0;
+    text-align: center;
+
+}
+li:last-child{
+    background-color: rgb(217, 243, 165);
+}
