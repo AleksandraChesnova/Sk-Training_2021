@@ -1,0 +1,24 @@
+
+/*Task5*/
+body{
+    background-color: lightslategrey;
+}
+div{
+    position:absolute;
+    left: 0; right: 0; top: 40%; bottom: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+/*думаю, что не совсем так выполнила задачу: - "блок должен быть по центру по горизонтали и вертикали через position"*/
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 600px;
+    
+}
+h1{
+    text-transform: uppercase;
+    padding-left: 200px;
+}
