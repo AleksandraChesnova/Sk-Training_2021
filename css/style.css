@@ -1,0 +1,74 @@
+div{
+    /*box-shadow:*/
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px red, 0 0 0 20px yellow;/*мультитень, накладывается от бордера*/
+}
+.text{
+    text-shadow: 5px 5px 5px grey;
+    font-size: 48px;
+}
+.gradient{
+    /*градиент*/
+    background-image: linear-gradient(to top right, red, yellow, gray);
+    transform: rotate(45deg);
+    transform-origin: top center;
+}
+.box{
+    /*transform*/
+    transform: translate(100px, 100px) rotate(90deg) scale(1, 1) skew(30deg);
+    
+}
+
+.p{
+    /*proba */
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to top right, yellow, indigo);
+    transform: rotate(-40deg);
+    transform-origin: top ;
+    box-shadow:-5px 5px 5px grey;
+    border-radius: 0px;
+    margin-top: 300px;
+}
+
+.anime{
+    transition: width 3s;
+}
+.anime:hover{
+    width: 400px;
+}
+@keyframes clr {
+    from {
+        background: red;
+    }
+    to{
+        background: greenyellow;
+    }
+}
+@keyframes clr2 {
+    0%{
+        background: red;
+    }
+    25%{
+        background: rgb(116, 52, 52);
+    }
+    50%{
+        background: rgb(160, 81, 81);
+    }
+    100%{
+        background: rgb(233, 206, 206);
+    }
+}
+.animation{
+    animation-name: clr2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; /*чтобы менялся цвет без обновления, циклично*/
+}
+img{
+    filter: grayscale(100%);
+}
