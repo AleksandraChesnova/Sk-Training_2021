@@ -1,4 +1,4 @@
-:root {
+:root {/*:root- переменная*/
     --size-div: 600px;
     }
     
@@ -6,15 +6,16 @@ div{
     background-color: aquamarine;
     width: var(--size-div);
     overflow: visible;
-    /* hidden; */
+    /* overflow:hidden-обрезает изображ. по границы блока */
 }
+
 p{
     width: 110px;
-}
+} 
 div img{
     width: var(--size-div);
     height: 150px;
-    object-fit: cover; /* contain;*/
+    object-fit: cover; /*обрезка изображения; contain- уменьшается под размеры блока*/
 }
 @media only screen and (max-width: 600px) {
     div{
