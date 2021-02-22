@@ -30,7 +30,7 @@ div{
     height: 200px;
     background-image: linear-gradient(to top right, yellow, indigo);
     transform: rotate(-40deg);
-    transform-origin: top ;
+    transform-origin: top;
     box-shadow:-5px 5px 5px grey;
     border-radius: 0px;
     margin-top: 300px;
@@ -71,4 +71,6 @@ div{
 }
 img{
     filter: grayscale(100%);
+    width: 500px;
+    height: 300px;
 }
