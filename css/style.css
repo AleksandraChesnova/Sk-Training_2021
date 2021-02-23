@@ -1,0 +1,16 @@
+.box{
+        background-color: chartreuse;
+    width: 80vw;
+    height: 100vh;
+    /*transform-origin:top center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*position: absolute;
+    top: 10%; left: 10%;
+    margin: 10px; */
+    border: 10px solid;
+    border-color:transparent gray;
+    border-radius: 50px;
+    padding: 15px;
+}
