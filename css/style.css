@@ -1,0 +1,50 @@
+/*div{
+    column-count: auto;
+    column-width: 200px;
+    column-gap: 10px;
+    column-rule: 1px dotted grey;
+}*/
+#container{
+    width: 700px;
+    height: 300px;
+    border: 1px solid gray;
+    display: flex;
+    background-color: khaki;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    /* justify-content: center; /*justify-content: center; align-items: center; центрировать все по центру*/
+    /* align-items: center; */ 
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    margin: 5px;
+    border: 1px solid gray;
+    /* flex-grow: 1;
+    flex-basis: 150px;} */}
+#box1{
+    /* flex-grow: 2; */
+    /* flex-shrink: 4; */
+    align-self: flex-end;
+}
+
+#box2{
+    /* flex-grow: 3; */
+    
+}
+/*
+#box1{
+    order: 4;
+}
+#box2{
+    order: 3;
+}
+
+#box3{
+    order: -1;/*стать в самом начале не смотря на правила(исключение) /
+}
+#box4{
+    order: 1;
+}*/
