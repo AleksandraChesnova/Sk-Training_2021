@@ -1,16 +1,18 @@
+/*hw5_task2*/
 .box{
-        background-color: chartreuse;
-    width: 80vw;
+    background-color: chartreuse;
+    width: 80vw; /*(Создать блок шириной равной 80% ширины экрана). Сначала написала - width: 80%; потом width: 80vw; Что правильно?*/
     height: 100vh;
-    /*transform-origin:top center;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
     /*position: absolute;
     top: 10%; left: 10%;
-    margin: 10px; */
+    justify-content: center;
+    align-content: center;
+    /*transform-origin:top center;*/
+    display: block;
+    margin: auto; /*очень долго не могла сделать по центру (выше в коментах видно), но потом применила (margin: auto)-думаю правильно сделала*/
     border: 10px solid;
     border-color:transparent gray;
     border-radius: 50px;
-    padding: 15px;
+    padding: 15px;/*не вижу смысла для чего он тут*/
+    
 }
