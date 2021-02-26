@@ -3,20 +3,35 @@
     padding: 0;
 }*/
 div{
-    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    display:inline-flex; 
     text-transform:uppercase;
     width: 300px;
-    height: 150px;
+    height: 180px;
     text-align: center;
-    background-color: grey;
+    /* justify-content:center; */
+    background-color:rgb(103, 113, 128);
     margin: 0;
+    padding: 25px 0 0 0; 
     font-size: 60px;
-    color: grey;
+    color: rgb(99, 110, 128);
+    line-height: 1.1em;
+}
+/*
+#box1{
+    text-shadow:3px 3px 3px rgb(58, 75, 90);
+    background-image: linear-gradient(to top,rgb(59, 68, 83), rgb(121, 129, 143));
     
 }
-#box1{
-    text-shadow:3px 3px 3px rgb(59, 58, 58);
-}
 #box2{
-    text-shadow:3px 3px 3px rgb(59, 58, 58);
+    text-shadow:5px 10px 15px rgb(24, 35, 44);
+    background-image: linear-gradient(to bottom right,rgb(121, 129, 143), rgb(59, 68, 83));
+    
+}*/
+#box3{
+    width: 500px;
+    height: 180px;
+    text-shadow:5px 10px 15px rgb(24, 35, 44);
+    background-image: linear-gradient(to bottom right,rgb(134, 143, 160), rgb(59, 68, 83));
+    margin-top: 10px;
 }
