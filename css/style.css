@@ -1,0 +1,9 @@
+/*HW6_tr7_Flex*/
+a[href]{
+    color: grey;
+    padding: 5px;
+    margin: 5px;
+}
+.fas.fa-search:hover, .fas.fa-bars:hover{
+    color: black;
+}
