@@ -1,18 +1,23 @@
-/*Task3*/
+/*hw4_task3*/
 ul li{
     list-style: none;
 }
+li:last-child{
+    background-color: rgb(217, 243, 165);
+}
+ul{
+    width: 50%;
+}
 li{
     display: inline-block;
-    background-color: lightgray;
-    border: 1px solid gray;
-    width: 150px;
-    height: 30px;
     margin: 0 5px 5px 0;
-    padding: 15px 0 0;
+    width: 180px;
+    height: 50px;
+    background-color: lightgray;
+    border: 1px solid gray; 
     text-align: center;
-
+    line-height: 50px;/*межстрочный интервал*/
 }
-li:last-child{
+li:nth-child(3){
     background-color: rgb(217, 243, 165);
 }
