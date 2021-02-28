@@ -1,42 +1,44 @@
+/*hw5_task3*/
 div{
     display: inline-block;
     margin: 20px;
     width: 0;
     height: 0;
 }
-.container1{
-    border-bottom: 100px solid red;
+.container1, .container2{
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
 }
+.container1{
+    border-bottom: 100px solid red;}
 .container2{
     border-top: 100px solid red;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
+}
+.container3, .container4{
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
 }
 .container3{
     border-left: 100px solid rgb(40, 206, 40);
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
 }
 .container4{
     border-right: 100px solid rgb(40, 206, 40);
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
+}
+.container5, .container6{
+    border-top: 100px solid transparent;
 }
 .container5{
     border-left: 100px solid rgb(206, 241, 136);
-    border-top: 100px solid transparent;
-}
+   }
 .container6{
     border-right: 100px solid rgb(206, 241, 136);
-    border-top: 100px solid transparent;
+   }
+.container7, .container8{
+    border-bottom: 100px solid transparent;
 }
 .container7{
     border-left: 100px solid blue;
-    border-bottom: 100px solid transparent;
 }
 .container8{
     border-right: 100px solid blue;
-    border-bottom: 100px solid transparent;
 }
