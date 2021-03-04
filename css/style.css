@@ -1,9 +1,53 @@
 /*HW6_tr7_Flex*/
-a[href]{
-    color: grey;
-    padding: 5px;
-    margin: 5px;
+*{
+  margin: 0;
+  padding: 0;
 }
-.fas.fa-search:hover, .fas.fa-bars:hover{
-    color: black;
+body{
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0 125px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 125px 0 105px;
+}
+h1{  
+  font-size: 60px;
+  line-height: 70px;
+  width: 540px;
+  height: 140px;
+}
+main{
+  background: #f7f5f5;
+}
+aside{
+  background-color: white;
+}
+footer{
+  background-color: #515151;
+  color: white;
+}
+.content{
+  object-fit: contain;
+  overflow: hidden;
+  flex-direction: column;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  width: 1110px;
+  height: 60px;
+ }
+
+a[href] {
+  color: grey;
+  padding: 5px;
+  margin: 5px;
+}
+.fas.fa-search:hover,
+.fas.fa-bars:hover {
+  color: black;
 }
