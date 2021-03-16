@@ -1,0 +1,20 @@
+// @function setcolor(){
+//     @return 'yellow';
+// }
+// div{
+//     background-color:setcolor();
+
+@function setcolor($clr) {
+    @return $clr;
+}
+div{
+    background-color: setcolor(grey);
+}
+// .box{
+//     // background-color: yellow;
+//     // my description
+// }
+
+@for $i from 1 to 12 { //through
+    .col-lg-#{$i} { width: $i;}
+}
